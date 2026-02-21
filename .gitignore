@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Playwright
+playwright-report/
+test-results/
+blob-report/
+
+# Logs
+*.log
+
+# Node (if ever used)
+node_modules/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Keep generated test outputs but ignore secrets
+reports/*.log
